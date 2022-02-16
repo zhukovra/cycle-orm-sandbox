@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/cycle-orm-belongs",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "rmn",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "cycle/orm": "^2.0",
+    "cycle/annotated": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Example\\": "src/"
+    }
+  }
+}
